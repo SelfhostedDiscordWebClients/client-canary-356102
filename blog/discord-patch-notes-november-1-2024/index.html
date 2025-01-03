@@ -1,0 +1,290 @@
+<!DOCTYPE html><!-- Last Published: Wed Nov 13 2024 18:33:52 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="prod-wf2.discord.com" data-wf-page="65f171518990f2eb1c9aa7c4" data-wf-site="5f8dd67f8fdd6f51f0b50904" data-wf-collection="65f171518990f2eb1c9aa76e" data-wf-item-slug="discord-patch-notes-november-1-2024"><head><meta charset="utf-8"/><title>Discord Patch Notes: November 1, 2024</title><meta content="Check out the finer details of the more technical fixes implemented into Discord recently." name="description"/><meta content="Discord Patch Notes: November 1, 2024" property="og:title"/><meta content="Check out the finer details of the more technical fixes implemented into Discord recently." property="og:description"/><meta content="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3.png" property="og:image"/><meta content="Discord Patch Notes: November 1, 2024" property="twitter:title"/><meta content="Check out the finer details of the more technical fixes implemented into Discord recently." property="twitter:description"/><meta content="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3.png" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/css/discordpages.a703a1438.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Press Start 2P:regular:cyrillic,latin","Poppins:200,300,regular,500,600,700,800,900"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/60ae916347747e71167e21cc_favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/5f91fae62cc821206588b837_Frame%20246.png" rel="apple-touch-icon"/><link href="rss.xml" rel="alternate" title="RSS Feed" type="application/rss+xml"/><!-- Localize integration code -->
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script src="https://discord.com/webflow-scripts/head.js"></script>
+<style>
+  .nav-bar-hack {
+  	bottom: 0px !important;
+    height: auto !important;
+  }
+  
+  body a.w-webflow-badge {
+    display: none !important;
+  }
+  
+  body {
+  	text-rendering: optimizeLegibility;
+  }
+  
+  @media screen and (max-width: 476px) {
+    .hide-on-mobile {
+      display: none;
+    }
+  }
+  
+  .hr-style {
+  border: 0;
+  height: 8px;
+  background-color: #F0F0F0;
+  margin: 20px 0px;
+  }
+  
+  .BlogBodyQuote {
+  grid-column: 2/-1;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 0px 0px 15px 40px;
+  font-style: italic;
+  margin: 40px 0px 50px 0px;
+}
+
+.quote-text {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.quote-icon {
+  position: relative;
+  top: 16px;
+}
+
+footer.quote-footer {
+  font-size: 16px;
+  margin-top: 20px;
+  font-style: normal;
+}
+</style>
+
+<style>
+.language{
+    display:flex;
+    user-select: none;
+}
+.language .lang-container {
+    position: relative;
+}
+
+.language .lang-selector-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.language .locale-container{
+    display: flex;
+    align-items: center;
+}
+
+.language .flag {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.language .selector-language-name{
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.language .arrow-icon{
+    padding-left: 8px;
+}
+
+.language .lang-dropdown-container {
+    z-index: 10;
+    bottom: 100%;
+    margin-bottom: 8px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    display: none;
+}
+
+.language .lang-dropdown {
+    max-height: 320px;
+    min-width: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.language .dropdown-item{
+    padding: 8px;
+}
+
+.language .dropdown-clickable{
+    cursor: pointer;
+}
+
+.language .dropdown-language-name{
+    color: #23272a;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.flag-ru{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4da57001e8f59b8a77_62cb46f39e6ac4c46ce39566_ru.png);
+}
+
+.flag-bg{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cdbc0dc0fb5f55e3098f_6257c2a1e7544e303083b2b1_bolg.png);
+}
+.flag-cs{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4c83827a1284afe239_62cb46f1254305732a01676d_cs.png);
+}
+.flag-da{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4ad6ee377e0df4cde6_62cb46f16128094022db6768_da.png);
+}
+.flag-de{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4aa35fe71fedf5e95f_62cb46f1c50496ce73c40d99_de.png);
+}
+.flag-en-GB {
+    content:url("https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/62d01c2078d11b68a1633276_Rectangle%201%20(3).svg");
+}
+.flag-el{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4ca5700115ec9b8a67_62cb46f17c26b5fe5a53876f_el.png);
+}
+.flag-en-US{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cdbc488f5f603e7ecd2a_6257bf8b5ba300233705a542_en.png);
+}
+.flag-en{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cdbc488f5f603e7ecd2a_6257bf8b5ba300233705a542_en.png);
+}
+.flag-es{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4b7670687b935aaed4_62cb46f14edab1b0029593fc_es-ES.png);
+}
+.flag-fi{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb48951dec0cce94a2b1_62cb46f1921c0cf82fc59da7_fi.png);
+}
+.flag-fr{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4a01339d451d474860_62cb46f1544a7ab7c66e9ccb_fr.png);
+}
+.flag-hi{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb47b3070262fdccd2a6_62cb46f13fcb6e76c05b504e_hi.png);
+}
+.flag-hr{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4764813ee14c33c45f_62cb46f1aeebe9064763c90c_hr.png);
+}
+.flag-hu{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb486b18c7334c564b9a_62cb46f19e6ac41dcce39561_hu.png);
+}
+.flag-it{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb47fcf6b11ce186dd29_62cb46f1bd099a25f8f77ea4_it.png);
+}
+.flag-ja{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb49fa4234bc13a595aa_62cb46f1e819841940bec47d_ja.png);
+}
+.flag-ko{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4b6b18c7266d564ba3_62cb46f125430509b9016776_ko.png);
+}
+.flag-lt{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4bc5fa8c17a80ae4c4_62cb46f14edab152b8959405_lt.png);
+}
+.flag-nl{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4d6b18c71a53564bac_62cb46f3e00ff80959abff2a_nl.png);
+}
+.flag-no{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4d29670fb8a9998a06_62cb46f37c26b5e22453877d_no.png);
+}
+.flag-pl{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4fd9e48ce2224e71b3_62cb46f3c504963019c40db7_pl.png);
+}
+.flag-pt-BR{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4d41e0514ceaeb0814_62cb46f3d809bc2503e62bec_pt-BR.png);
+}
+.flag-ro{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4b7b2666d9520e434e_62cb46f36e94d725ce411ab6_ro.png);
+}
+.flag-sv{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb5036a202f7044eb402_62cb46f49e6ac47674e39567_sv-SE.png);
+}
+.flag-th{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb502ab71d0c254b8e0c_62cb46f465c529bf26e211a1_th.png);
+}
+.flag-tr{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4f41e0515a89eb082a_62cb46f4e819848178bec4d1_tr.png);
+}
+.flag-uk{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4f36a20273d04eb401_62cb46f37c26b54f6a53877f_uk.png);
+}
+.flag-vi{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4f00801f3750f4834e_62cb46f4e819840d89bec4d2_vi.png);
+}
+.flag-zh-Hans{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb5010e73af938ef607e_62cb46f49e6ac45f35e39568_zh-CN.png);
+}
+.flag-zh-TW{
+    content:url(https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/6321cb4fd354ea61ac8db41c_62cb46f33fcb6ea5c95b5069_zh-TW.png);
+}
+</style>
+
+<script src="/w/assets/b960ac7f559c3a04d18e7cce9de42c4b94a33dd4/styles.js" defer></script><style>
+.btn-wrapper a {
+  color: #fff ;
+}
+
+/*
+strong {
+  font-weight: 700!important;
+  font-size: 32px!important;
+}
+*/
+</style>
+
+</head><body><div style="background-color:#5865f2" class="header-blue-blog"><div data-w-id="268ebfa3-e656-b800-3b97-3f7bdfa2ec4d" class="blog-navbar"><a href="/blog" class="blog-brand-copy w-nav-brand"><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/613b8fc3834b2bd42157bc04_blogwhite.svg" loading="lazy" alt="Discord"/></a><div data-collapse="medium" data-animation="over-right" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-5 w-nav"><div class="container-790 w-container"><nav role="navigation" class="blog-nav w-nav-menu"><div data-delay="100" data-hover="true" class="w-dropdown"><div class="w-dropdown-toggle"><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/635157e8f94a8580bcbb3e32_Shape.svg" loading="lazy" alt="" class="icon mobile"/><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/614275ac3d35134cb2a96b63_down.svg" loading="lazy" alt="" class="icon white"/><div class="blog-nav-item">COLLECTIONS</div></div><nav class="dropdown-list w-dropdown-list"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="/category/community" class="dropdown-link w-dropdown-link">Community</a></div><div role="listitem" class="w-dyn-item"><a href="/category/company" class="dropdown-link w-dropdown-link">Discord HQ</a></div><div role="listitem" class="w-dyn-item"><a href="/category/engineering" class="dropdown-link w-dropdown-link">Engineering &amp; Developers</a></div><div role="listitem" class="w-dyn-item"><a href="/category/how-to-discord" class="dropdown-link w-dropdown-link">How to Discord</a></div><div role="listitem" class="w-dyn-item"><a href="/category/safety" class="dropdown-link w-dropdown-link">Policy &amp; Safety</a></div><div role="listitem" class="w-dyn-item"><a href="/category/product" class="dropdown-link w-dropdown-link">Product &amp; Features</a></div></div></div></nav></div><a href="/blog-featured" class="blog-nav-item w-nav-link">Featured</a><a href="https://discord.com/" class="blog-nav-item w-nav-link">Discord.com</a><div class="w-embed"><form action="/blog/search" class="form-search w-form" style="display: flex">
+<input type="search" class="text-field w-input" maxlength="256" name="query" placeholder="Search…" id="search" required="">
+<input type="submit" value="" class="btn-search w-button">
+</form>
+
+<style> 
+form.form-search.w-form:focus-within {
+    border: 1px solid #fff;
+}
+</style></div><form action="/search" class="form-search w-form"><input class="text-field w-input" maxlength="256" name="query" placeholder="Search…" type="search" id="search" required=""/><input type="submit" class="btn-search w-button" value=""/></form></nav><div class="w-nav-button"><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/60b6ad79b75c18f025626c71_menuicon.svg" loading="lazy" alt="Menu" class="image-14"/></div></div></div></div></div><div style="background-color:#5865f2" class="blog-home-hero-header"></div><div class="blog-featured-section"><div class="blog-hero-container hero-offset w-dyn-list"><div role="list" class="collection-list w-dyn-items"><div role="listitem" class="collection-item-4 w-dyn-item"><div class="div-block-15"><img src="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3.png" loading="lazy" alt="" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1279px) 91vw, (max-width: 1919px) 92vw, 1368px" srcset="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3-p-500.png 500w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3-p-800.png 800w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3-p-1080.png 1080w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3-p-1600.png 1600w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3.png 1800w" class="image-19"/></div><div class="blog-hero-heading-section"><a href="/category/product" class="blog-hero-category">Product &amp; Features</a><a href="/blog/discord-patch-notes-november-1-2024" aria-current="page" class="blog-hero-heading w--current">Discord Patch Notes: November 1, 2024</a></div></div></div></div></div><div class="blog-post-container new"><div class="column-wrapper w-row"><div class="column-3 w-col w-col-2 w-col-stack"><div class="the-author-section"><img alt="" loading="lazy" width="72" src="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/662ff55b5f6e9a4ecacad1df_DEngineering%20Profile%20Icon.png" class="image-22"/><div><div class="blog-post-author">Discord Engineering</div><div class="blog-post-author-name">November 1, 2024</div></div></div><div class="tag-section"><div class="divider-bar-copy"></div><div class="tags-sections-head">Tags</div><div class="collection-list-wrapper-2 w-dyn-list"><div role="list" class="collection-list-2 w-dyn-items"><div role="listitem" class="collection-item-5 w-dyn-item"><a href="/tags/patch-notes" class="w-inline-block"><div class="text-block-14">Patch Notes</div></a></div></div></div></div></div><div class="column-4 w-col w-col-8 w-col-stack"><div id="heading-1" class="rich-wrapper"><div class="blog-post-content w-richtext"><p>Welcome to Patch Notes! In this series, we comb through the newest changes in performance, reliability, responsiveness, usability, and general bug-squishing we’ve done to make Discord better. </p><p>If you discover a bug of your own, check out our <a href="https://dis.gd/reddit-bug-megathread">Bimonthly Bug Megathread</a> on the community-ran r/DiscordApp subreddit. Tell us what’s been bothering you and our Engineering team will be more than happy to check it out. </p><p>All fixes listed below have been committed and merged, but may still be rolling out to individual platforms at the time of this post. </p></div></div><div class="btn-wrapper w-condition-invisible"><a href="#" class="btn-blog w-dyn-bind-empty w-button"></a></div><div id="heading-2" class="rich-wrapper"><div class="blog-post-content w-richtext"><h2><strong>Highlights<br/></strong></h2><ul role="list"><li>Foldable users, we heard you and we have good news: we’ve invested heavily in foldable device support recently! You should notice dramatic improvements in how Discord functions on your foldable device. We’ve also invested in future-proofing our code base so foldables should “just work” moving forward, rather than requiring bespoke support. Please report issues you find on these devices via the <a href="https://dis.gd/reddit-bug-megathread">/r/discordapp subreddit Megathread</a> or a<a href="https://support.discord.com/hc/en-us/requests/new"> Support ticket</a>. </li><li>Discord now has better multitasking/Sidecar/side-by-side app view support. Changing the dimensions of the mobile application should intelligently swap between different ways of viewing our app, giving you far more flexibility in these scenarios. We hope you love the quality of life improvements here for multitasking.</li><li>You’re now able to set a keybind to toggle screen sharing on macOS 15+. Previously, this was only a Windows feature. You can set a keybind for “Toggle Screen Share” in User Settings &gt; Keybinds.</li><li>We’re looking <em>everywhere</em> for performance improvements at Discord, so we recently took some time to improve the performance of<a href="https://discord.com/"> Discord.com</a>! We shipped a suite of changes that reduced page load time for users by up to 4 seconds on average, as well as improving other core vitals. The website should feel significantly more responsive now.</li></ul></div></div><div id="heading-3" class="rich-wrapper"><div class="blog-post-content w-richtext"><h2><strong>General<br/></strong></h2><ul role="list"><li>We updated Electron from e30 to e32 on Windows, macOS, and Linux. </li><li>Opening a friend link in the browser now properly interacts with the desktop client if it’s running.</li><li>Fixed a short-lived bug where the send message and add friend buttons were no longer on the large profile screen.</li><li>Fixed a bug that caused Avatar Decorations to overlap users’ status in unread messages on mobile apps.</li><li>Resolved a bug that caused the notification bubble on normal to be oval instead of circular.</li><li>Fixed a bug that could cause profile banners to have incorrect zoom levels after saving.</li><li>The Emoji Picker should now properly jump to categories on your first attempt again.</li><li>Resolved an issue on foldable devices that caused the banner for user profiles to not render correctly.</li><li>Fixed an alignment issue where the Onboarding nudge feature overlapped with the App Launcher. </li><li>Fixed an uncommon issue that could cause the navigation bar at the bottom of mobile apps to not render.</li><li>Fixed a bug that caused us to repeatedly (and futilely) attempt a particular API call while offline.</li><li>Fixed a brief issue that caused the video player on Android to not show controls in landscape mode.</li><li>The “Show Members in Channel List” banner in the member list now has the correct font color in certain themes. </li><li>Resolved a theming issue with the colors of Keybinding arrow icons.</li><li>The mobile app Channel Settings Category Selector UI handles long category names properly now.</li><li>X.com post embeds no longer try and use an embed’s content as Markdown.</li><li>Resolved a Shop issue that could cause the wrong category banner to be rendered.</li><li>Resolved a short-lived issue that caused the Profile to shift downward incorrectly when selecting text inputs on mobile.</li><li>Opening Mod View from a server member’s Profile should now function properly.</li><li>Fixed a significant rendering flash when updating permissions in Channel Settings on Desktop.</li><li>The option for Non-Nitro users to change their Profile Effect disappeared briefly. Sneaky bugger. We put the button back where it belongs, so you can put your Profile Effect back where IT belongs.</li><li>We corrected some confusing language on the Purchase button for Profile collectibles; not everything is referred to as a “Decoration” now.</li><li>Resolved an issue with the Overlay where the Emoji Picker wouldn’t show custom emojis.</li><li>Resolved a confusing issue where resetting options in Channel Settings would not visually reset the Slow Mode setting.</li><li>Server Guide text on iOS should now wrap properly.</li><li>Resolved an issue where roles a user already had were populating in the list when adding new roles via the Simplified Profile.</li><li>Resolved an issue on iOS that caused Emojis in a Profile’s “About Me” section to be misaligned.</li><li>Resolved some padding issues in the Nitro Gifting flows.</li><li>Resolved a mobile issue that caused the Nitro icon in User Profiles to be subtly placed and sized improperly. </li><li>Poll answers are now able to be selected and copied from the Poll UI.</li><li>Resolved an issue that caused the React button on Forum posts to be too small.</li><li>Fixed an alignment issue with the context interactions icon (the “/” icon shown when you use an app command) while in Compact Mode.</li><li>Clicking the Mute button beneath the Channel/DM list no longer scrolls the Shop UI when it’s active.</li><li>Adding Roles to a user with no Roles via the Simplified Profile UI no longer automatically collapses all Roles.</li><li>Resolved an issue that caused Collection tiles to not have a perfectly-round UI element. Now it properly goes in the square hole. </li><li>Resolved an issue in the Shop where clicking anywhere for the first time could incorrectly scroll to the bottom of the page.</li><li>Resolved a bug that could cause the expression picker to incorrectly expand when adding Roles to a user on iOS.</li><li>Resolved an issue with the color of the plus icon on the “Add App” button of a bot’s Profile.</li></ul></div></div><div id="heading-4" class="rich-wrapper"><div class="blog-post-content w-richtext"><h2><strong>Chat<br/></strong></h2><ul role="list"><li>We had a brief issue where emojis in chat were rendering way too large on the client. If you saw this, we hope you got a chuckle out of it.</li><li>Resolved an issue that caused the “Hold to record” tooltip for Voice Messages on mobile to not animate properly when the keyboard collapsed.</li><li>Resolved a timing-based issue where deleted messages could sometimes still render in DM previews on mobile.</li><li>Fixed a short-lived iOS issue that incorrectly caused drafts to persist between channels.</li><li>You should now be able to open User Profiles through a message reply if you click their name in the message preview above a reply.</li><li>Fixed an iOS issue that caused chat text scaling to incorrectly be altered in the message history as the keyboard collapsed after sending a message. </li><li>Fixed a bug that caused renaming a thread too quickly after creation to create two threads.</li><li>Fixed an issue that could cause theming issues in Thread creation flows.</li><li>Resolved an issue that caused swipe actions to not function properly while chat was animating.</li><li>Fixed a bug that caused Notification Settings to incorrectly appear on DMs on mobile.</li><li>Fixed a bug where the Voice Message UI was not placed properly, clipping into text input. </li><li>Resolved an issue that reached beta that caused emojis in messages to not be aligned properly on iOS.</li><li>Fixed a theming issue with the Post Settings UI on mobile, which caused the background for the Post Title to be the incorrect color.</li><li>Scrolling away from a Voice Message after it’s completed playback on iOS should no longer bring up the PiP.</li><li>Scrolling through attachments while authoring a long message should now function properly, instead of snapping focus to the bottom of the message.</li></ul></div></div><div id="heading-5" class="rich-wrapper"><div class="blog-post-content w-richtext"><h2><strong>Activities and Apps<br/></strong></h2><ul role="list"><li>Resolved an issue with Primary Entry Points where removal could cause a crash in Discord.</li><li>Apps installed both to an account and to a particular server should now properly appear in the “In This Server” section of the App Launcher.</li><li>Audit logs are now properly updated when user roles are updated by an app.</li><li>Fixed a bug that caused typing text commands into the App Launcher on Android to not fully expand the keyboard.</li><li>App descriptions should now have consistent rendering of Markdown.</li><li>Buttons to join an app activity, like Spotify, will no longer appear clickable if the user does not have the application installed.</li><li>The mobile authorization UI for apps now properly utilizes the whole screen for rendering.</li><li>Apps without a description will no longer show an empty description container when selecting an install type.</li><li>There is no longer a (completely unnecessary) horizontal scroll bar in the App authorization modal on Desktop. Now you’ll never know what was there if you <em>did</em> scroll horizontally…</li><li>Activities should now properly respect Application Test mode, regardless of where you open the activity from.</li><li>Resolved an issue that caused joining certain Activities to sometimes incorrectly send a channel invite to the Activity host.</li></ul></div></div><div id="heading-6" class="rich-wrapper"><div class="blog-post-content w-richtext"><h2><strong>Audio/Video<br/></strong></h2><ul role="list"><li>You are now able to disconnect users from a voice channel via their Profile if you have the correct permissions to do so in the channel they are in.</li><li>Resolved an iOS issue where the video PiP could go missing while backgrounded, and users wouldn’t have a way to conveniently re-access the call UX.</li><li>Fixed an issue that caused the Soundboard to leave a permanent border if it was used while watching a stream with hidden non-video participants.</li><li>Fixed an alignment issue with the Watch button on the stream preview in Voice Channels.</li><li>Resolved a couple of issues with Video PiP on Desktop when a screen share was focused: the PiP size is now correct and there is no longer an empty overlay when hovered.</li><li>Fixed a bug that caused the back button to be missing from the UI on certain mobile devices when focusing on a participant in a video call.</li><li>Resolved a Call UX issue on certain mobile devices where the buttons would occasionally not render at all.</li><li>Resolved an issue where the back button could become unresponsive when trying to return to a call from the streaming menu on iOS.</li></ul></div></div><div id="heading-7" class="rich-wrapper"><div class="blog-post-content w-richtext"><h2><strong>Media<br/></strong></h2><ul role="list"><li>Resolved an issue in Media Viewer that caused certain GIFs to resize when hovered on Desktop.</li><li>The media preview on Android no longer uses the total screen width rather than app width when multitasking.</li><li>Resolved an issue that caused images to duplicate in forwarded messages.</li><li>Resolved a short-lived bug that caused the GIF picker to lose borders between the GIFs.</li><li>Toggling the Media Picker open/closed no longer causes a significant flicker.</li><li>Switching to landscape mode when viewing a full-screen image in a gallery with multiple images no longer renders a blank screen.</li><li>Autocorrect is now enabled properly when Sharing/Forwarding Media.</li><li>Video audio should now properly stop playing on iOS devices when the screen is locked during playback.</li><li>Resolved an issue on mobile where incomplete or canceled attachment uploads could still result in a message being created.</li><li>We now properly handle iPhone 16’s spatial audio when creating video and audio attachments from iOS.</li></ul></div></div><div id="heading-8" class="rich-wrapper"><div class="blog-post-content w-richtext"><h2><strong>Accessibility<br/></strong></h2><ul role="list"><li>The “Private Thread” element is now properly announced as a button via screen readers.</li><li>When entering an invalid confirmation code, users with screen readers enabled will now be informed that the verification code was invalid.</li><li>Opening a server with unread messages should no longer move VoiceOver focus to the messages immediately.</li><li>Resolved an issue where the app could become unresponsive when moving VoiceOver focus to a long message.</li></ul><figure style="max-width:1600px" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/653021edd85706dfb6ffeba8_TV2v_-uOGq_-9bLKTL6x2sar01-RmueVTdSDMoDffirOVPSmfDpE9ebtlky9V0Z8qgOHr3eBnhGKm_iojFbktORKndkTthHv5sVTpaksHlm-JWX5j6kAomU-ZaY7agmFfYHZddfUIHpuMNzJkUvKfmk.png" loading="lazy" alt=""/></div></figure><p>All relative measurements cited were performed internally with our own instrumentation and tooling.</p><p>…</p><p>…</p><p>… oh hey, you read everything! If you’re itching for the latest updates to Discord, you can find our previous Patch Notes articles <a href="https://discord.com/tags/patch-notes">here</a>, or check out our <a href="https://discord.com/tags/changelog">archive of past Changelogs</a> if you’re more into the fun stuff.  </p></div></div><div id="heading-9" class="rich-wrapper"><div class="blog-post-content w-dyn-bind-empty w-richtext"></div></div><div id="heading-10" class="rich-wrapper"><div class="blog-post-content w-dyn-bind-empty w-richtext"></div></div></div><div class="column-desctop w-col w-col-2 w-col-stack"><div class="rich-content-right"><div class="paragraph-medium bot-marg">Contents</div><a href="#heading-1" class="title-menu-anchor">Welcome to PaaAaatch NooOoootes!</a><a href="#heading-2" class="title-menu-anchor">Highlights</a><a href="#heading-3" class="title-menu-anchor">General</a><a href="#heading-4" class="title-menu-anchor">Chat</a><a href="#heading-5" class="title-menu-anchor">Activities and Apps</a><a href="#heading-6" class="title-menu-anchor">Audio/Video</a><a href="#heading-7" class="title-menu-anchor">Media</a><a href="#heading-8" class="title-menu-anchor">Accessibility</a><a href="#heading-9" class="title-menu-anchor w-dyn-bind-empty"></a><a href="#heading-10" class="title-menu-anchor w-dyn-bind-empty"></a></div></div></div><div class="divider-bar"></div><div class="blog-column w-row"><div class="w-col w-col-3 w-col-medium-6"><div class="author-title">THE AUTHOR</div></div><div class="w-col w-col-9 w-col-medium-6"><div class="the-author-section footer"><img alt="" loading="lazy" width="47" src="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/662ff55b5f6e9a4ecacad1df_DEngineering%20Profile%20Icon.png" class="blog-post-author-image-footer"/><div><div class="blog-post-author-footer">Discord Engineering</div><div class="blog-post-author-desc">We make Discord!</div></div></div></div></div><div class="divider-bar"></div><div><div class="author-title">MORE FROM</div><div class="category-title-footer">Product &amp; Features</div><div class="footer-more-from w-dyn-list"><div role="list" class="featured-small-list w-dyn-items w-row"><div role="listitem" class="collection-item-small blog w-dyn-item w-col w-col-4"><a href="/blog/discord-roll20-adventure-and-dnd-shop-collection" class="link-block-4 w-inline-block"><img src="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/670ef8932fc56d10786649dd_(CCD_17_D%26D)_MKT_01_Blog%20Banner_Full.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 29vw, (max-width: 1439px) 30vw, 434.65625px" srcset="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/670ef8932fc56d10786649dd_(CCD_17_D%26D)_MKT_01_Blog%20Banner_Full-p-500.jpg 500w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/670ef8932fc56d10786649dd_(CCD_17_D%26D)_MKT_01_Blog%20Banner_Full-p-800.jpg 800w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/670ef8932fc56d10786649dd_(CCD_17_D%26D)_MKT_01_Blog%20Banner_Full-p-1080.jpg 1080w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/670ef8932fc56d10786649dd_(CCD_17_D%26D)_MKT_01_Blog%20Banner_Full-p-1600.jpg 1600w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/670ef8932fc56d10786649dd_(CCD_17_D%26D)_MKT_01_Blog%20Banner_Full.jpg 1800w" class="blog-featured-small-image"/></a><a href="/category/product" class="blog-hero-category">Product &amp; Features</a><a href="/blog/discord-roll20-adventure-and-dnd-shop-collection" class="link-block-20 w-inline-block"><div class="blog-featured-title-small">Set Out for a Discord Adventure! Check Out Our Roll20 Adventure &amp; D&amp;D Shop Collection </div></a></div><div role="listitem" class="collection-item-small blog w-dyn-item w-col w-col-4"><a href="/blog/discord-patch-notes-october-1-2024" class="link-block-4 w-inline-block"><img src="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3.png" loading="lazy" alt="" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 29vw, (max-width: 1439px) 30vw, 434.65625px" srcset="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3-p-500.png 500w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3-p-800.png 800w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3-p-1080.png 1080w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3-p-1600.png 1600w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3.png 1800w" class="blog-featured-small-image"/></a><a href="/category/product" class="blog-hero-category">Product &amp; Features</a><a href="/blog/discord-patch-notes-october-1-2024" class="link-block-20 w-inline-block"><div class="blog-featured-title-small">Discord Patch Notes: October 1, 2024</div></a></div><div role="listitem" class="collection-item-small blog w-dyn-item w-col w-col-4"><a href="/blog/discord-update-september-26-2024-changelog" class="link-block-4 w-inline-block"><img src="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66ecb1eaa5561774cf2c00d5_650233ad5dcf4b6825522e09_Fall_September.png" loading="lazy" alt="" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 29vw, (max-width: 1439px) 30vw, 434.65625px" srcset="https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66ecb1eaa5561774cf2c00d5_650233ad5dcf4b6825522e09_Fall_September-p-500.png 500w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66ecb1eaa5561774cf2c00d5_650233ad5dcf4b6825522e09_Fall_September-p-800.png 800w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66ecb1eaa5561774cf2c00d5_650233ad5dcf4b6825522e09_Fall_September-p-1080.png 1080w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66ecb1eaa5561774cf2c00d5_650233ad5dcf4b6825522e09_Fall_September-p-1600.png 1600w, https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/66ecb1eaa5561774cf2c00d5_650233ad5dcf4b6825522e09_Fall_September.png 1800w" class="blog-featured-small-image"/></a><a href="/category/product" class="blog-hero-category">Product &amp; Features</a><a href="/blog/discord-update-september-26-2024-changelog" class="link-block-20 w-inline-block"><div class="blog-featured-title-small">Discord Update: September 26, 2024 Changelog</div></a></div></div></div></div></div><div class="footer-black"><div class="container-1180px-2"><div class="w-layout-grid grid-footer"><div id="w-node-_4154f574-5821-8ddb-f6fc-12aae7b6c861-e7b6c85e" class="vertical-flex"><div data-hover="false" data-delay="0" class="dropdown-3 w-dropdown"><div class="dropdown-toggle w-dropdown-toggle"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6257bee91e6309a5a6f6b994_arrow.svg" loading="lazy" alt="" class="arrow"/><div>English, USA</div></div><nav class="dropdown-list-5 w-dropdown-list"><a href="#" class="dropdown-link-2 w-dropdown-link">български</a><a href="#" class="dropdown-link-2 czech w-dropdown-link">Čeština</a><a href="#" class="dropdown-link-2 dansk w-dropdown-link">Dansk</a><a href="#" class="dropdown-link-2 deutsch w-dropdown-link">Deutsch</a><a href="#" class="dropdown-link-2 greek w-dropdown-link">Ελληνικά</a><a href="#" class="dropdown-link-2 english w-dropdown-link">English, USA</a><a href="#" class="dropdown-link-2 spanish w-dropdown-link">Español</a><a href="#" class="dropdown-link-2 suomi w-dropdown-link">Suomi</a><a href="#" class="dropdown-link-2 french w-dropdown-link">Français</a><a href="#" class="dropdown-link-2 hindi w-dropdown-link">हिंदी</a><a href="#" class="dropdown-link-2 hrvatski w-dropdown-link">Hrvatski</a><a href="#" class="dropdown-link-2 magyar w-dropdown-link">Magyar</a><a href="#" class="dropdown-link-2 italiano w-dropdown-link">Italiano</a><a href="#" class="dropdown-link-2 japanese w-dropdown-link">日本語</a><a href="#" class="dropdown-link-2 korean w-dropdown-link">한국어</a><a href="#" class="dropdown-link-2 lithuanian w-dropdown-link">Lietuviškai</a><a href="#" class="dropdown-link-2 nederlands w-dropdown-link">Nederlands</a><a href="#" class="dropdown-link-2 norwegian w-dropdown-link">Norwegian</a><a href="#" class="dropdown-link-2 polski w-dropdown-link">Polski</a><a href="#" class="dropdown-link-2 brazilian-portuguese w-dropdown-link">Português do Brasil</a><a href="#" class="dropdown-link-2 romania w-dropdown-link">Română</a><a href="#" class="dropdown-link-2 ru w-dropdown-link">Русский</a><a href="#" class="dropdown-link-2 svenska w-dropdown-link">Svenska</a><a href="#" class="dropdown-link-2 thai w-dropdown-link">ไทย</a><a href="#" class="dropdown-link-2 turkey w-dropdown-link">Türkçe</a><a href="#" class="dropdown-link-2 ua w-dropdown-link">Українська</a><a href="#" class="dropdown-link-2 vietnamese w-dropdown-link">Tiếng Việt</a><a href="#" class="dropdown-link-2 chinese1 w-dropdown-link">中文</a><a href="#" class="dropdown-link-2 chinese w-dropdown-link">繁體中文</a></nav></div><div class="language"><div class="lang-container"><div id="locale-dropdown" class="lang-dropdown-container"><div class="lang-dropdown"></div></div><div class="lang-selector-container"><div class="locale-container"><img src="https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg" alt="" class="flag"/><div class="selector-language-name"></div></div><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/65a4ff76cf4d671ad4d51450_Arrow.svg" loading="lazy" alt="" class="arrow-icon"/></div></div></div><div class="flex-horizontal top-soc"><a data-track="twitter" href="https://twitter.com/discord" target="_blank" class="link-s w-inline-block"><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/65a4ff7f94df73c9e7047b73_x.svg" loading="lazy" alt="" class="image-49"/></a><a data-track="instagram" href="https://www.instagram.com/discord/" target="_blank" class="link-s w-inline-block"><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/65a4ff7f9dc5202983df5b4d_instagram.svg" loading="lazy" alt="" class="image-49"/></a><a data-track="facebook" href="https://www.facebook.com/discord/" target="_blank" class="link-s w-inline-block"><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/65a4ff7fbe5dd773ef7ab0df_facebook.svg" loading="lazy" alt="" class="image-49"/></a><a data-track="youtube" href="https://www.youtube.com/discord" target="_blank" class="link-s w-inline-block"><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/65a4ff7f987628aaab0f29dd_youtube.svg" loading="lazy" alt="" class="image-49"/></a><a data-track="Tiktok" href="https://www.tiktok.com/@discord" target="_blank" class="link-s w-inline-block"><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/65a4ff7f37b6a1c4fa724d97_tiktok.svg" loading="lazy" alt="" class="image-49"/></a></div></div><div id="w-node-_4154f574-5821-8ddb-f6fc-12aae7b6c8b6-e7b6c85e"><div class="paragraph-small top-marg font-blue">Product</div><a data-track="download" href="https://discord.com/download" class="link-footer">Download</a><a data-track="nitro" href="https://discord.com/nitro" class="link-footer">Nitro</a><a data-track="status" href="https://discordstatus.com/" class="link-footer">Status</a><a data-track="status" href="https://discord.com/application-directory" class="link-footer">App Directory</a><a data-track="status" href="https://discord.com/mobile" class="link-footer">New Mobile Experience</a></div><div id="w-node-_4154f574-5821-8ddb-f6fc-12aae7b6c8bf-e7b6c85e"><div class="paragraph-small top-marg font-blue">Company</div><a data-track="about" href="https://discord.com/company" class="link-footer">About</a><a data-track="jobs" href="https://discord.com/careers" class="link-footer">Jobs</a><a data-track="branding" href="https://discord.com/branding" class="link-footer">Brand</a><a data-track="newsroom" href="https://discord.com/newsroom" class="link-footer">Newsroom</a></div><div id="w-node-_4154f574-5821-8ddb-f6fc-12aae7b6c8ca-e7b6c85e"><div class="paragraph-small top-marg font-blue">Resources</div><a data-track="college" href="https://discord.com/college" class="link-footer">College</a><a data-track="support" href="https://support.discord.com/hc" class="link-footer">Support</a><a data-track="safety" href="https://discord.com/safetycenter" class="link-footer">Safety</a><a data-track="blog" href="https://discord.com/blog" class="link-footer">Blog</a><a data-track="feedback" href="https://support.discord.com/hc/en-us/community/topics" class="link-footer">Feedback</a><a data-track="streamkit" href="https://discord.com/streamkit" class="link-footer">StreamKit</a><a data-track="creators" href="https://discord.com/creators" class="link-footer">Creators</a><a data-track="community" href="https://discord.com/community" class="link-footer">Community</a><a data-track="Build" href="https://discord.com/build" class="link-footer">Developers</a><a data-track="Build" href="https://discord.com/gaming" class="link-footer">Gaming</a><a data-track="Build" href="https://discord.com/quests" class="link-footer">Quests</a><a data-track="store" href="https://discordmerch.com/evergreenfooter" class="link-footer">Official 3rd Party Merch</a></div><div id="w-node-_4154f574-5821-8ddb-f6fc-12aae7b6c8e1-e7b6c85e"><div class="paragraph-small top-marg font-blue">Policies</div><a data-track="terms" href="https://discord.com/terms" class="link-footer">Terms</a><a data-track="privacy" href="https://discord.com/privacy" class="link-footer">Privacy</a><a data-open-cookie-settings="true" href="#" class="link-footer">Cookie Settings</a><a data-track="guidelines" href="https://discord.com/guidelines" class="link-footer">Guidelines</a><a data-track="acknowledgement" href="https://discord.com/acknowledgements" class="link-footer">Acknowledgements</a><a data-track="licenses" href="https://discord.com/licenses" class="link-footer">Licenses</a><a data-track="moderation" href="https://discord.com/moderation" class="link-footer">Moderation</a></div></div><div class="footer-line-blue"><a data-track="logo" href="https://discord.com/" class="w-inline-block"><img src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/64cb9ed63bb88490555f45a1_Open%20Source%20Projects%20_%20Discord-7.svg" loading="lazy" alt="" class="discord-footer"/></a><a data-track="login_footer" href="https://discord.com/app" class="button-white color-blue-right footer-open-discord-button footer-open-discord-button-js w-button">Sign up</a></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f8dd67f8fdd6f51f0b50904" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/5f8dd67f8fdd6f51f0b50904/js/discordpages.672fd7d63.js" type="text/javascript"></script><script src="https://discord.com/webflow-scripts/bodyEnd.js" defer></script>
+<script type="text/javascript" src="https://discord.com/w/assets/latest/loginOrDownload.js" defer></script>
+
+  <!-- section:dataLayer -->
+  <script src="/assets/oneTrust/v4/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="04da1d72-0626-4fff-b3c6-150c719cc115"></script>
+  <!-- build:inlineScriptNonceTag -->
+  <script>
+    <!-- endbuild -->
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ 'allCookiesOK': false });
+  </script>
+  <!-- endsection -->
+  <!-- section:gtm -->
+  <!-- build:inlineScriptNonceTag -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=GI0g9O-54_SitcgmxQKxlA&gtm_preview=env-2&gtm_cookies_win=x'; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N7BVC2W');
+  </script>
+  <!-- endsection -->
+
+<script src="/w/assets/b960ac7f559c3a04d18e7cce9de42c4b94a33dd4/index-consolidated.js" defer></script><script type="application/ld+json">
+{ 
+ "@context": "http://schema.org", 
+ "@type": "BlogPosting",
+ "headline": "Discord Patch Notes: November 1, 2024",
+ "image": "https://cdn.prod.website-files.com/5f9072399b2640f14d6a2bf4/6657ad0a58988c5decbfbc53_Header_3.png",
+ "publisher": "Discord",
+ "url": "https://discord.com/blog/discord-patch-notes-november-1-2024",
+ "datePublished": "Nov 05, 2024",
+ "dateCreated": "Oct 30, 2024",
+ "dateModified": "Nov 01, 2024",
+ "description": "Check out the finer details of the more technical fixes implemented into Discord recently.",
+   "author": {
+    "@type": "Person",
+    "name": "Discord Engineering"
+  }
+ }
+</script>
+
+<script nonce="MTYyLDEwNSw4OSwzMSwxNiwxODEsMjM3LDk=">(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.nonce='MTYyLDEwNSw4OSwzMSwxNiwxODEsMjM3LDk=';d.innerHTML="window.__CF$cv$params={r:'8e375628ec2ae0dd',t:'MTczMTc1ODU5My4wMDAwMDA='};var a=document.createElement('script');a.nonce='MTYyLDEwNSw4OSwzMSwxNiwxODEsMjM3LDk=';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>

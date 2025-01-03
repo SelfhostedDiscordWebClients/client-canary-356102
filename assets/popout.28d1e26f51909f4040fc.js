@@ -1,0 +1,2 @@
+window.onload=function(){null!=window.opener&&window.opener.postMessage({discordPopoutEvent:{type:"loaded",key:window.windowKey}},window.origin)},window.onunload=function(){null!=window.opener&&window.opener.postMessage({discordPopoutEvent:{type:"unloaded",key:window.windowKey}},window.origin)};
+//# sourceMappingURL=popout.28d1e26f51909f4040fc.js.map
